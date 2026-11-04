@@ -1,0 +1,9 @@
+the subprocess module in python is a built in library that allows you to run external programs and system commands directly from your python code 
+
+          in simple words it allows python to communicate with your computer's terminal(CMD, PowerShell, or Bash)
+
+
+
+          # import subprocess
+
+          subprocess.run("echo hello zeeshan,shell=True)
