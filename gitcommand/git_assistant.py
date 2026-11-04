@@ -3,7 +3,7 @@ import subprocess
 def git_push():
     subprocess.run(["git","add","."])
 
-    message = input("enter commit message:")
+    message = input("enter message to commit:")
 
     subprocess.run(["git","commit","-m",message])
 
