@@ -1,3 +1,3 @@
 import subprocess
 
-subprocess.run(["git","--version"])
+subprocess.run(["git","--version","status"])
