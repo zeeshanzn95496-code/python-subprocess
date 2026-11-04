@@ -6,4 +6,4 @@ if command=="push":
     git_push()
 
 else:
-    print("unknown command")
+    print(" you entered wrong command, command must be push")
